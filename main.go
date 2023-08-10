@@ -21,4 +21,11 @@ func main() {
 	for x := 0; x < 10; x++ {
 		fmt.Println("Hello GO")
 	}
+
+	t := 3
+	if t > 2 {
+		fmt.Println("greater than 2")
+	} else {
+		fmt.Println("smaller than 2")
+	}
 }
